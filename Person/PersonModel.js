@@ -12,3 +12,5 @@ class PersonModel {
         this.lastName = lastName
     }
 }
+
+export default PersonModel;

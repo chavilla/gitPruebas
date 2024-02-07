@@ -1,4 +1,4 @@
-let firstName = "Jesus";
-console.log("El nombre es ", firstName);
-let lastName = "Charris";
-console.log("El apellido es ", lastName);
+import PersonModel from "./Person/PersonModel";
+
+let personObj = new PersonModel('Jesus', 'Charris')
+console.log(personObj);
